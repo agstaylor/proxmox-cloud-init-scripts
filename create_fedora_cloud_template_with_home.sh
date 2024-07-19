@@ -198,6 +198,7 @@ packages:
   - bat
   - duf
   - procs
+  - autojump
   - neofetch
 package_update: true
 package_upgrade: true

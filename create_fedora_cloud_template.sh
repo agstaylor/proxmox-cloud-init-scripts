@@ -169,6 +169,7 @@ packages:
   - bat
   - duf
   - procs
+  - autojump
 package_update: true
 package_upgrade: true
 timezone: Europe/London
