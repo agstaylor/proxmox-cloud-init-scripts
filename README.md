@@ -63,9 +63,9 @@ Bake in additional files and folders to home directory:
 
 5. Once the script completes, a new VM template will be available in your Proxmox environment.
 
-## Customization
+## Customisation
 
-You can customize various aspects of the VM creation process:
+You can customise various aspects of the VM creation process:
 
 - Modify the `create_custom_cloudinit` function in the script to change installed packages or add custom commands.
 - Adjust VM sizes by editing the `create_vm` function.
