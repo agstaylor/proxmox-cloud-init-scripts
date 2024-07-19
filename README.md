@@ -91,7 +91,7 @@ This project offers several learning opportunities in cloud and systems administ
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/yourusername/proxmox-cloud-init-scripts/issues) if you want to contribute.
+Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/agstaylor/proxmox-cloud-init-scripts/issues) if you want to contribute.
 
 ## License
 
