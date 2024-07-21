@@ -14,7 +14,7 @@ The primary goal is build my platform for learning and testing cloud deployment 
 - Customisable VM configurations (size, resources, networking)
 - User and SSH key management via Cloud-Init
 - Package installation and system configuration automation
-- Currently supports Fedora, with plans to expand to other distributions
+- Currently supports Fedora and Ubuntu, with plans to expand to other distributions
 
 ## Prerequisites
 
@@ -62,6 +62,32 @@ Bake in additional files and folders to home directory:
 ```
 
 5. Once the script completes, a new VM template will be available in your Proxmox environment.
+
+### Ubuntu Cloud Image Deployment
+The create_ubuntu_cloud_template.sh script automates the creation of an Ubuntu 24.04 LTS Cloud VM template in Proxmox.
+
+1. Follow steps 1-2 from the Fedora Cloud Image Deployment section above.
+2. Make the script executable:
+
+```bash
+chmod +x create_ubuntu_cloud_template.sh
+```
+3. Run the script with appropriate parameters:
+
+```bash
+./create_ubuntu_cloud_template.sh <size> <image_id> <username> <ssh_key_path>
+```
+```bash
+Parameters:
+- `<size>`: VM size (small or medium)
+- `<image_id>`: Proxmox VM ID
+- `<username>`: User to be created in the VM
+- `<ssh_key_path>`: Path to the SSH public key file
+
+Example:
+ ./create_ubuntu_cloud_template.sh small 9002 ataylor ./.ssh/ataylor@labnet.zone.pub
+```
+4. Once the script completes, a new Ubuntu VM template will be available in your Proxmox environment.
 
 ## Customisation
 
