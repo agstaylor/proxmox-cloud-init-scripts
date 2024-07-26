@@ -1,5 +1,11 @@
 # .bashrc
 
+# Check if the session is non-interactive
+if [[ $- != *i* ]]; then
+    # If non-interactive, exit immediately
+    return
+fi
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
     . /etc/bashrc
