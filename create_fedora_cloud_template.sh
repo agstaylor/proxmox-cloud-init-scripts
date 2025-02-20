@@ -170,6 +170,7 @@ packages:
   - duf
   - procs
   - autojump
+  - tig
 package_update: true
 package_upgrade: true
 timezone: Europe/London

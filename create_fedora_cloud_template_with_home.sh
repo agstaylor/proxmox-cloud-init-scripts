@@ -200,6 +200,7 @@ packages:
   - procs
   - autojump
   - neofetch
+  - tig
 package_update: true
 package_upgrade: true
 timezone: Europe/London
