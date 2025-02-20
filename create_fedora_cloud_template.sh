@@ -41,7 +41,7 @@ create_fedora_vm() {
     IMAGE_ID="$2"
     USERNAME="$3"
     SSH_KEY_PATH="$4"
-    FEDORA_VERSION="40"
+    FEDORA_VERSION="41"
     FEDORA_IMAGE="Fedora-Cloud-Base-Generic.x86_64-${FEDORA_VERSION}-1.14.qcow2"
     DOWNLOAD_DIR="/var/lib/vz/template/iso"
     DOWNLOAD_URL="https://mirror.karneval.cz/pub/linux/fedora/linux/releases/${FEDORA_VERSION}/Cloud/x86_64/images/${FEDORA_IMAGE}"
